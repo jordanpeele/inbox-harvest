@@ -1,0 +1,8 @@
+node_modules
+dist
+data/
+dummy-data/
+email-extractor/
+*.local
+.DS_Store
+.vercel
