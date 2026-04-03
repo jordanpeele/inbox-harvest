@@ -15,7 +15,7 @@ export default function ExportBar({ getFilteredContacts }) {
     <div className="flex flex-wrap gap-2">
       <button
         onClick={() => exportCSV(getFilteredContacts())}
-        className="px-4 py-2 text-xs rounded-lg bg-surface border border-border hover:bg-surface-hover transition-colors"
+        className="px-4 py-2 text-xs rounded-lg bg-accent text-bg font-medium hover:bg-accent-dim transition-colors"
       >
         Export CSV
       </button>
@@ -30,10 +30,10 @@ export default function ExportBar({ getFilteredContacts }) {
         className={`px-4 py-2 text-xs rounded-lg border transition-colors ${
           copied
             ? "bg-success/10 border-success/30 text-success"
-            : "bg-accent/10 border-accent/30 text-accent hover:bg-accent/20"
+            : "bg-surface border-border hover:bg-surface-hover"
         }`}
       >
-        {copied ? "Copied!" : "Copy all emails"}
+        {copied ? "Copied!" : "Copy emails"}
       </button>
     </div>
   );

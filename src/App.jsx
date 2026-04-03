@@ -275,7 +275,7 @@ export default function App() {
 
         {hasContacts && !showUpload && !processing && (
           <>
-            <StatCards stats={stats} />
+            <StatCards stats={stats} lastUpdated={dbMeta.lastUpdated} />
 
             <div className="flex flex-wrap items-center gap-3">
               <input
@@ -309,6 +309,7 @@ export default function App() {
               search={search}
               dateFrom={dateFrom}
               dateTo={dateTo}
+              onClearFilters={() => { setSearch(""); setDateFrom(""); setDateTo(""); }}
             />
           </>
         )}
