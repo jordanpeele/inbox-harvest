@@ -1,6 +1,6 @@
 # Inbox Harvest
 
-![Inbox Harvest dashboard](public/og-image.svg)
+![Inbox Harvest dashboard](public/og-image.png)
 
 Extract fan emails from your Facebook Messenger exports — no API, no scraping, 100% local.
 
