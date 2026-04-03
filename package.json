@@ -6,7 +6,7 @@
   "description": "Extract fan emails from Facebook Messenger exports. 100% client-side, no backend, open source.",
   "author": "Coby Weiss",
   "license": "MIT",
-  "homepage": "https://khatumu-fan-list.vercel.app",
+  "homepage": "https://inbox-harvest.vercel.app",
   "repository": {
     "type": "git",
     "url": "https://github.com/jordanpeele/inbox-harvest"

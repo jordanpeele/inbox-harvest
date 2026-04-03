@@ -31,7 +31,7 @@ You're a musician or creator. Your fans DM you their email addresses. You're cop
 
 ### Use it now
 
-Visit **[khatumu-fan-list.vercel.app](https://khatumu-fan-list.vercel.app)**
+Visit **[inbox-harvest.vercel.app](https://inbox-harvest.vercel.app)**
 
 ### Run locally
 
